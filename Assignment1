@@ -1,0 +1,14 @@
+//sum of elements in array
+#include<stdio.h>
+int main()
+{
+	int n,i,ans=0;
+	scanf("%d",&n);
+	int a[n];
+	for(i=0;i<n;i++)
+    {
+	scanf("%d",&a[i]);
+    ans=ans+a[i];
+	}
+	printf("\n%d",ans);
+}
